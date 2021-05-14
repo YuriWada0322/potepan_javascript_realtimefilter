@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+    <html lang="ja">
+      <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>リアルタイムフィルター</title>
+      </head>
+ 
+    <body>
+    <h2>リアルタイムフィルター</h2>
+    <p>入力した文字を含まない要素は非表示</p>
+    <input type="text" id="myInput" onkeyup='searchTable()' placeholder="search word">
+
+    <table id='myTable'>
+     <tr>
+      <td>
+          <img src="https://www.photock.jp/photo/middle/photo0000-4559.jpg"　alt="浅草">
+         <p>キーワード<br>浅草　あさくさ　Asakusa</p>
+      </td>
+     </tr>
+     
+   　<tr>
+      <td>
+           <img src="https://www.photock.jp/photo/middle/photo0000-2588.jpg" alt="Odaiba">
+         <p>キーワード<br>お台場　おだいば　Odaiba</p>
+      </td>
+     </tr>
+     
+     <tr>
+      <td>
+         <img src="https://www.photock.jp/photo/middle/photo0000-6370.jpg" alt="Shibuya">
+         <p>キーワード<br>渋谷　しぶや　Shibuya</p>
+      </td>
+     </tr>
+     
+     <tr>
+      <td>
+           <img src="https://www.photock.jp/photo/middle/photo0000-1336.jpg" alt="Shinjyuku">
+         <p>キーワード<br>新宿 しんじゅく Shinjyuku</p>
+      </td>
+     </tr>
+    </table>
+
+   <script src ="main.js"></script>
+  </body>
+</html>
+
